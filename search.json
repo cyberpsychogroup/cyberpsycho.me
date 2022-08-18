@@ -11,7 +11,7 @@
     "href": "index.html",
     "title": "Cyberpsychology Research Group",
     "section": "",
-    "text": "About us\nThe cyberpsychology and online behaviour research group was introduced to address the rapidly developing interest in the behavioural effects of the use of digital/online technologies.\nWe are a diverse team of researchers with interests in the effects of telehealth applications, excessive internet use and virtual reality on human behaviour.\nOur common aim is to provide evidence and guided directions on the potentially debilitating effects interwoven with the use of digital and online applications. These effects tend to be massively accessible via a range of popular devices such as personal computers and smartphones. We combine collaboration with the digital production industry and the mental health field to transcribe empirical evidence into practice. Our vision involves fostering positive public health outcomes, while accommodating industry growth.\n\n\nOur collaborators and partners"
+    "text": "About us\nThe cyberpsychology and online behaviour research group was introduced to address the rapidly developing interest in the behavioural effects of the use of digital/online technologies.\nWe are a diverse team of researchers with interests in the effects of telehealth applications, excessive internet use and virtual reality on human behaviour.\nOur common aim is to provide evidence and guided directions on the potentially debilitating effects interwoven with the use of digital and online applications. These effects tend to be massively accessible via a range of popular devices such as personal computers and smartphones. We combine collaboration with the digital production industry and the mental health field to transcribe empirical evidence into practice. Our vision involves fostering positive public health outcomes, while accommodating industry growth."
   },
   {
     "objectID": "blog/posts/post-with-code/index.html",
@@ -53,7 +53,7 @@
     "href": "publications.html#behavioral-technology-addictions",
     "title": "Publications per area of interest",
     "section": "Behavioral / technology addictions",
-    "text": "Behavioral / technology addictions\nDisordered gaming: the role of a gamer’s distress profile Link\n\nUnravelling the web of addictions: a network analysis approach Link\nRisks and opportunities for youth in the digital era: a cyber-developmental approach to mental health Link\nLink\nInternet gaming disorder profiles and their associations with social engagement behaviors Link\nProblematic internet use: the effect of comorbid psychopathology on treatment outcomes Link"
+    "text": "Behavioral / technology addictions\nDisordered gaming: the role of a gamer's distress profile Link\n\nUnravelling the web of addictions: a network analysis approach Link\nRisks and opportunities for youth in the digital era: a cyber-developmental approach to mental health Link\nLink\nInternet gaming disorder profiles and their associations with social engagement behaviors Link\nProblematic internet use: the effect of comorbid psychopathology on treatment outcomes Link"
   },
   {
     "objectID": "publications.html#cyberphenotype",
@@ -95,55 +95,41 @@
     "href": "skills.html",
     "title": "Skills & interests",
     "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi."
+    "text": "The group has a strong interest in psychometrics as well as using open source software, R, to develop papers and workshops.\nThis way we can contribute to the community by developing reproducible research and accumulate resources for other researchers.\nOur particular interests are in the following areas:"
+  },
+  {
+    "objectID": "skills.html#item-response-theory",
+    "href": "skills.html#item-response-theory",
+    "title": "Skills & interests",
+    "section": "Item Response Theory",
+    "text": "Item Response Theory\nItem Response Theory (IRT) is an approach in psychometrics that is used to design, analyse and evaluate of tests, questionnaires, and similar instruments. It has wide applicability and is usually found in any studies measuring abilities, attitudes, or other variables.\nThis approach is based on the assumption that there is a relationship between participant’s performances on a test item and the participant’s levels of performance on an overall measure of the ability that the test item was designed to measure.\nThe key difference from a more classic approach is that IRT does not assume that all items are equally difficult. To incorporate scaling items IRT uses the difficulty of test items."
   },
   {
     "objectID": "skills.html#exploratory-and-confirmatory-procedures",
     "href": "skills.html#exploratory-and-confirmatory-procedures",
     "title": "Skills & interests",
-    "section": "Exploratory and Confirmatory procedures",
-    "text": "Exploratory and Confirmatory procedures"
+    "section": "Exploratory and Confirmatory procedures: ",
+    "text": "Exploratory and Confirmatory procedures: \nOur particular interest is on using Exploratory Structural Equation Modeling (ESEM): development of the reproducible research and packages as well as application of the EFA in cyberpsychology.\nESEM is a relatively new technique that leverages the advantages of both Exploratory/Confirmatory Factor Analysis (EFA/CFA) and Structural Equation Modeling (SEM).\nWithin other techniques and approaches, we are doing work in\n\nMeasurement Invariance\nMultilevel Analysis\nCross-Lagged Designs"
   },
   {
-    "objectID": "skills.html#measurement-invariance",
-    "href": "skills.html#measurement-invariance",
+    "objectID": "skills.html#network-analysis-we-live-in-the-net-and-not-only-in-the-web-sense",
+    "href": "skills.html#network-analysis-we-live-in-the-net-and-not-only-in-the-web-sense",
     "title": "Skills & interests",
-    "section": "Measurement Invariance",
-    "text": "Measurement Invariance"
+    "section": "Network Analysis: we live in the Net, and not only in the Web-sense",
+    "text": "Network Analysis: we live in the Net, and not only in the Web-sense\nNetwork analysis (or Social Network analysis, SNA) is the approach to investigating social structures by using networks and graph theory. This approach reviews each phenomenon or event as a set of nodes and and links between them (i.e. ties or edges).\nOur particular focus is on applying network analysis to social media data where we develop applications and packages to collect, classify, categorise social media posts and users.\nBut SNA has much more to offer! It can be used to examine patterns of relationships between causal factors to identify the focal event and develop a model of the more accurate perceived causal structure."
   },
   {
-    "objectID": "skills.html#multilevel-analysis",
-    "href": "skills.html#multilevel-analysis",
+    "objectID": "skills.html#text-analysis-do-you-read-me",
+    "href": "skills.html#text-analysis-do-you-read-me",
     "title": "Skills & interests",
-    "section": "Multilevel Analysis",
-    "text": "Multilevel Analysis"
+    "section": "Text analysis: do you read me?",
+    "text": "Text analysis: do you read me?"
   },
   {
-    "objectID": "skills.html#cross-lagged-designs",
-    "href": "skills.html#cross-lagged-designs",
+    "objectID": "skills.html#machine-learning-and-data-mining",
+    "href": "skills.html#machine-learning-and-data-mining",
     "title": "Skills & interests",
-    "section": "Cross-Lagged Designs",
-    "text": "Cross-Lagged Designs"
-  },
-  {
-    "objectID": "skills.html#network-analysis",
-    "href": "skills.html#network-analysis",
-    "title": "Skills & interests",
-    "section": "Network Analysis",
-    "text": "Network Analysis"
-  },
-  {
-    "objectID": "skills.html#text-and-data-mining",
-    "href": "skills.html#text-and-data-mining",
-    "title": "Skills & interests",
-    "section": "Text and Data Mining",
-    "text": "Text and Data Mining"
-  },
-  {
-    "objectID": "skills.html#machine-learning-and-facilitated-prediction",
-    "href": "skills.html#machine-learning-and-facilitated-prediction",
-    "title": "Skills & interests",
-    "section": "Machine Learning and Facilitated Prediction",
-    "text": "Machine Learning and Facilitated Prediction"
+    "section": "Machine Learning and Data Mining",
+    "text": "Machine Learning and Data Mining\nMachine learning is a set of methods that is used to detect patterns in data to predict future events or occurrences. It has numerous applications, including psychology and mental health. There are quite a few methods in this domain with some examples of applications, including classifying medical cases, identifying groups of online gamers, detecting patterns in online behaviour, predicting anxiety and depression, determining interactive factors that influence mental conditions."
   }
 ]
