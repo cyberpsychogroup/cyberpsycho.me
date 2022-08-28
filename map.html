@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Dr Maria Prokofieva">
+<meta name="dcterms.date" content="2022-03-07">
 
-<title>Projects</title>
+<title>map - example</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -53,6 +55,17 @@ ul.task-list{list-style: none;}
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script src="site_libs/htmlwidgets-1.5.4/htmlwidgets.js"></script>
+<script src="site_libs/jquery-1.12.4/jquery.min.js"></script>
+<link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet">
+<script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet">
+<script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet">
+<script src="site_libs/leaflet-binding-2.1.1/leaflet.js"></script>
+<script src="site_libs/leaflet-providers-1.9.0/leaflet-providers_1.9.0.js"></script>
+<script src="site_libs/leaflet-providers-plugin-2.1.1/leaflet-providers-plugin.js"></script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -76,7 +89,7 @@ ul.task-list{list-style: none;}
     <a class="nav-link" href="./ourTeam.html">Our team</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./projects.html" aria-current="page">Projects</a>
+    <a class="nav-link" href="./projects.html">Projects</a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./publications.html">Publications</a>
@@ -98,43 +111,56 @@ ul.task-list{list-style: none;}
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#interactive-map-example" id="toc-interactive-map-example" class="nav-link active" data-scroll-target="#interactive-map-example">interactive map example</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Projects</h1>
+<h1 class="title">map - example</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Dr Maria Prokofieva </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 7, 2022</p>
+    </div>
+  </div>
     
   </div>
   
 
 </header>
 
-<div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">DEACRA</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Other</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<p><strong>Gamers and Avatars: What the connection between video-gamers and their in-game avatars can teach us about their physical activity and mental health in the real world?</strong></p>
-<p>Many children and adults play video games for enjoyment. For those people who play too much, this may lead to difficulties at school and in their lives. Despite these negative effects of “over-gaming”, people who play too much have been shown to not talk about their problems and/or ask for help, worsening the negative consequences of over-gaming. Studies suggest that the choices a person makes about their game figure, called an avatar, can show how they feel, their exercise habits and the ways they communicate with their family. It may also indicate, how they use their mobile phones, social media, and in general, how they are in their lives.</p>
-<p>This study aims to investigate the different profiles of people who play games, based on how they connect with their avatar. It also aims to understand whether, who the player is outside the game, and how they experience gaming, may relate to such profiles. Lastly, it aspires to understand if/how user-avatar connection profiles can inform us about one’s mental health and physical activity outside the game.</p>
-<p>To achieve these aims, over 500 adolescent and young adult students (12-29 years old) will be recruited to the study. Over a week (7 days), participants will be asked to answer questionnaires (online), wear a Fitbit watch, that has the capabilities to collect information about their physical activity levels and install a special application on their mobile phone to monitor phone use (time on the phone). Every 6 months, over 18 months (4 times in total), these procedures will be repeated. The data collected in the current study will add vital information about how players interact with their avatar and reveal what the avatar used can tell us about the player in real life. These may assist to develop strategies that will help people continue enjoying and benefiting from gaming while reducing the dangers of over-gaming.</p>
-</div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-
-</div>
+<section id="interactive-map-example" class="level2">
+<h2 class="anchored" data-anchor-id="interactive-map-example">interactive map example</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div id="htmlwidget-9beb859294993a5326d7" style="width:100%;height:464px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-9beb859294993a5326d7">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addProviderTiles","args":["Stamen.TonerLite",null,"Toner Lite",{"errorTileUrl":"","noWrap":false,"detectRetina":false}]},{"method":"addMarkers","args":[[37.42831,35.602821,47.606209,52.987011,40.01262,42.70180484,49.19850721,37.59272176,40.74233007,35.14350841,49.99328058,35.90065042],[-122.19284,-77.417229,-122.332069,-0.99049,-105.27068,-84.48140994,16.60548056,127.0472845,-105.0265264,33.36370918,8.260030664,14.48495896],null,null,"Academic Collaborators",{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["<a href = https://www.paloaltou.edu/faculty/charlotte-beard-phd>Link<\/a>","<a href =https://www.researchgate.net/profile/Michelle-Colder-Carras>Link<\/a>","<a href =https://www.restartlife.com/author/hcash/>Link<\/a>","<a href = https://www.ntu.ac.uk/research/groups-and-centres/groups/the-international-gaming-research-unit>Link<\/a>","<a href =https://www.frossomotti.com/>Link<\/a>","<a href =https://comartsci.msu.edu/our-people/rabindra-ratan>Link<\/a>","<a href =https://www.muni.cz/en/people/79130-lukas-blinka>Link<\/a>","<a href =https://koasas.kaist.ac.kr/researcher-profile?perno=8556 >Link<\/a>","<a href = https://www.libarts.colostate.edu/people/jsnodgra/>Link<\/a>","<a href =https://onek.org.cy/author/stelios-papapetrou/>Link<\/a>","<a href =https://www.researchgate.net/profile/Kai-Mueller-11>Link<\/a>","<a href =https://yannakakis.net/>Link<\/a>"],null,null,null,["Charlotte Beard","Michelle Colder Carras","Hilarie Cash","Mark D Griffiths","Frosso Motti Stefanidi","Robby Ratan Michigan","Lukas Blinka","Young Yim Doh","Jeffrey Snodgrass","Stelios Papapetrou","Kai Mueller","Georgios N. Yannakakis"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addMarkers","args":[[-37.90451936,-37.81135286,-37.80754508,-37.82136719],[144.9982762,144.9986807,144.9772229,145.0359311],null,null,"National Industry Collaborators",{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["<a href =https://vicparentscouncil.vic.edu.au/>Link<\/a>","<a href =https://www.turningpoint.org.au/>Link<\/a>","<a href =https://www.catholiccarevic.org.au/>Link<\/a>","<a href =https://www.headspace.com/>Link<\/a>"],null,null,null,["Victorian Parents Council","Turning Point","CatolicCare","Headspace"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addMarkers","args":[[-26.71683057,-38.31103691,-37.79817633,-28.16841601],[153.0657603,146.4294013,144.9610491,153.5185974],null,null,"Australian/ National Academic Collaborators",{"interactive":true,"draggable":false,"keyboard":true,"title":"","alt":"","zIndexOffset":0,"opacity":1,"riseOnHover":false,"riseOffset":250},["<a href =https://www.usc.edu.au/staff/dr-lee-kannis-dymand >Link<\/a>","<a href =https://federation.edu.au/schools/school-of-science-psychology-and-sport/staff-profiles/staff-directory/march,-evita >Link<\/a>","<a href =https://people.eng.unimelb.edu.au/vkostakos/ >Link<\/a>","<a href =https://www.scu.edu.au/about/contacts/staff-directory/staff/50341.php >Link<\/a>"],null,null,null,["Dr Lee Kannis-Dymand","March&amp; Evita","Vassilis Kostakos","Dylan Poulus"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addLayersControl","args":[[],["Academic Collaborators","National Industry Collaborators","Australian/ National Academic Collaborators"],{"collapsed":false,"autoZIndex":true,"position":"topright"}]}],"limits":{"lat":[-38.31103691,52.987011],"lng":[-122.332069,153.5185974]}},"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
